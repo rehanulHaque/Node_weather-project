@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+body{
+    max-width: 650px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 5rem;
+    font-weight: bolder;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 0;
+}
+
+.nav{
+    display: flex;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #555;
+}
+.nav a:not(.not){
+    margin: 0 16px;
+}
+.header{
+    height: calc(100vh - 50px);
+}
+.footer{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888;
+}
+#myForm{
+    background-color: #e0e0e0;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 12px;
+    margin: 12px 0 0 0;
+}
+input{
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 0;
+    outline: 0;
+    border-bottom: 3px #000;
+    border-radius: 5px;
+}
+.btn{
+    padding: 12px 15px;
+    background-color: #fff;
+    color: #333;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    margin: 16px 0;
+    cursor: pointer;
+    outline: 0;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    line-height: 3;
+}
