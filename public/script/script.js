@@ -11,7 +11,7 @@ form.addEventListener("submit", e => {
 })
 
 function fetchData(searchTerm){
-    fetch(`http://localhost:3000/weather?address=${searchTerm}`).then(res => {
+    fetch(`/weather?address=${searchTerm}`).then(res => {
     return res.json()
 })
 .then(data => {

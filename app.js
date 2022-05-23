@@ -7,6 +7,7 @@ const weather = require("./utils/forecast");
 
 //Defining Express
 const app = express();
+const port = process.env.PORT || 3000
 
 // Defining Paths
 const viewsPath = path.join(__dirname, "./templates/views")
@@ -78,4 +79,4 @@ app.get("*", (req, res)=> {
 
 
 // Making Port For Express
-app.listen(3000);
+app.listen(port);
